@@ -1,22 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Бакалаврська робота</title>
-    <meta name="description" content="Лендінг для бакалаврської роботи">
-    <meta name="keywords" content="диплом, дослідження, університет">
-    <link rel="stylesheet" href="./styles.css">
+    <title>Бакалаврська робота | Мобільний застосунок</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Лендінг для бакалаврської роботи, присвячений мобільному додатку для фото з референсними зображеннями.">
+    <meta name="keywords" content="бакалаврська робота, фото, референсне зображення, мобільний додаток, університет">
+    <meta name="author" content="Ваше Ім'я">
+    
+    <!-- Open Graph (OG) -->
+    <meta property="og:title" content="Мобільний застосунок для фото">
+    <meta property="og:description" content="Додаток допомагає користувачам робити фото за референсним зображенням.">
+    <meta property="og:image" content="https://example.com/preview.jpg">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Мобільний застосунок для фото",
+      "description": "Додаток допомагає користувачам робити фотографії за референсним зображенням.",
+      "operatingSystem": "iOS, Android",
+      "applicationCategory": "PhotoApplication"
+    }
+    </script>
+
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header>Мобільний застосунок для фото з використанням референсних зображень</header>
-    <main>
-        <p>Додаток допомагає користувачам робити фотографії, орієнтуючись на референсні зображення. Користувач може завантажити референсне фото, яке буде відображатися як напівпрозорий шар на екрані камери для полегшення композиції кадру.</p>
+    <header role="banner">
+        <h1>Мобільний застосунок для фото з використанням референсних зображень</h1>
+    </header>
 
+    <main role="main">
+        <section aria-labelledby="description">
+            <h2 id="description">Опис застосунку</h2>
+            <p>Цей додаток допомагає користувачам робити фотографії, орієнтуючись на референсні зображення. Користувач може завантажити референсне фото, яке буде відображатися як напівпрозорий шар на екрані камери.</p>
+        </section>
+
+        <section aria-labelledby="features">
+            <h2 id="features">Основні можливості</h2>
+            <ul>
+                <li>Завантаження референсного фото</li>
+                <li>Напівпрозорий шар для вирівнювання зображення</li>
+                <li>Збереження зроблених фотографій</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="contact">
+            <h2 id="contact">Контактна інформація</h2>
+            <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+        </section>
     </main>
+
+    <footer role="contentinfo">
+        <p>© 2025 Ваша назва. Усі права захищені.</p>
+    </footer>
 </body>
 </html>
