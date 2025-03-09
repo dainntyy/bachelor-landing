@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* li {
+    list-style: none;
+} */
+
+.baner-image {
+    max-height: 600px;
+}
+
+.tasks-list li {
+    list-style:circle;
+}
