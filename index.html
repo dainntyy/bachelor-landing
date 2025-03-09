@@ -1,71 +1,233 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <title>Бакалаврська робота | Мобільний застосунок</title>
 
     <!-- SEO -->
-    <meta name="description" content="Лендінг для бакалаврської роботи, присвячений мобільному додатку для фото з референсними зображеннями.">
-    <meta name="keywords" content="бакалаврська робота, фото, референсне зображення, мобільний додаток, університет">
-    <meta name="author" content="Ваше Ім'я">
-    
+    <meta
+      name="description"
+      content="Лендінг для бакалаврської роботи, присвячений мобільному додатку для фото з референсними зображеннями."
+    />
+    <meta
+      name="keywords"
+      content="бакалаврська робота, фото, референсне зображення, мобільний додаток, університет"
+    />
+    <meta name="author" content="Ваше Ім'я" />
+
     <!-- Open Graph (OG) -->
-    <meta property="og:title" content="Мобільний застосунок для фото">
-    <meta property="og:description" content="Додаток допомагає користувачам робити фото за референсним зображенням.">
-    <meta property="og:image" content="https://example.com/preview.jpg">
-    <meta property="og:url" content="https://example.com">
-    <meta property="og:type" content="website">
-    
+    <meta property="og:title" content="Мобільний застосунок для фото" />
+    <meta
+      property="og:description"
+      content="Додаток допомагає користувачам робити фото за референсним зображенням."
+    />
+    <meta property="og:image" content="https://example.com/preview.jpg" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:type" content="website" />
+
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Мобільний застосунок для фото",
-      "description": "Додаток допомагає користувачам робити фотографії за референсним зображенням.",
-      "operatingSystem": "iOS, Android",
-      "applicationCategory": "PhotoApplication"
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Мобільний застосунок для фото",
+        "description": "Додаток допомагає користувачам робити фотографії за референсним зображенням.",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "PhotoApplication"
+      }
     </script>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <header role="banner">
-        <h1>Мобільний застосунок для фото з використанням референсних зображень</h1>
+      <h1>
+        Мобільний застосунок для фото з використанням референсних зображень
+      </h1>
+      <h3>Mobile Photography Application with Reference Images</h3>
     </header>
 
     <main role="main">
-        <section aria-labelledby="description">
-            <h2 id="description">Опис застосунку</h2>
-            <p>Цей додаток допомагає користувачам робити фотографії, орієнтуючись на референсні зображення. Користувач може завантажити референсне фото, яке буде відображатися як напівпрозорий шар на екрані камери.</p>
-        </section>
+      <section aria-labelledby="description">
+        <h2 id="description">Опис застосунку</h2>
+        <p>
+          Цей додаток допомагає користувачам робити фотографії, орієнтуючись на
+          референсні зображення. Користувач може завантажити референсне фото,
+          яке буде відображатися як напівпрозорий шар на екрані камери.
+        </p>
+        <p>
+          Завдяки використанню напівпрозорого накладання, користувачі можуть
+          точно відтворювати композицію, освітлення та ракурс, що робить його
+          ідеальним інструментом для творчих завдань, навчання та професійної
+          зйомки.
+        </p>
+      </section>
 
-        <section aria-labelledby="features">
-            <h2 id="features">Основні можливості</h2>
+      <section aria-labelledby="features">
+        <h2 id="features">Основні можливості</h2>
+        <ul>
+          <li>
+            Завантаження референсного фото з галереї або використання шаблонних
+            зображень
+          </li>
+          <li>Напівпрозорий шар для вирівнювання зображення</li>
+          <li>Збереження зроблених фотографій</li>
+        </ul>
+      </section>
+      <section aria-labelledby="relevance">
+        <h2 id="relevance">Актуальність теми</h2>
+        <p>
+          Сучасна цифрова фотографія стала важливою частиною життя блогерів,
+          фотографів, дизайнерів та науковців. Часто потрібно зробити серію
+          знімків із однаковою композицією (наприклад, для інструкцій,
+          каталожних фото або порівняльних досліджень).
+        </p>
+        <ul>
+          Актуальні проблеми, які вирішує додаток:
+          <li>
+            Брак функції накладання референсного фото у стандартних камерах.
+          </li>
+          <li>
+            Складність у досягненні однакового ракурсу та освітлення вручну.
+          </li>
+          <li>
+            Відсутність ефективного інструменту для художників та дослідників.
+          </li>
+        </ul>
+        <p>
+          Цей застосунок спрощує процес фотографування та дозволяє легко
+          створювати ідентичні зображення без складного обладнання.
+        </p>
+      </section>
+      <section aria-labelledby="goals">
+        <h2 id="goals">Мета дослідження:</h2>
+        <p>
+          Розробити мобільний додаток, який дозволяє користувачам точно
+          відтворювати фотографічні композиції, використовуючи референсні
+          зображення.
+        </p>
+        <h2 aria-labelledby="tasks">Основні завдання</h2>
+        <ul>
+          <li>
+            Створити зручний інтерфейс для завантаження та обробки референсних
+            зображень.
+          </li>
+          <li>
+            Реалізувати можливість напівпрозорого накладання фото у режимі
+            реального часу.
+          </li>
+          <li>
+            Забезпечити адаптацію додатка для різних розмірів екранів та
+            пристроїв.
+          </li>
+          <li>
+            Оптимізувати роботу з камерою для мінімізації затримок та
+            спотворень.
+          </li>
+          <li>Впровадити механізм збереження отриманих фотографій.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="research">
+        <h2 id="research">Методологія дослідження</h2>
+        <p>Розробка додатка включала такі етапи:</p>
+        <ol>
+          <li>
+            Аналіз ринку
             <ul>
-                <li>Завантаження референсного фото</li>
-                <li>Напівпрозорий шар для вирівнювання зображення</li>
-                <li>Збереження зроблених фотографій</li>
+              <li>
+                Дослідження існуючих рішень у сфері мобільних додатків для
+                фото.
+              </li>
+              <li>Визначення основних вимог користувачів.</li>
             </ul>
-        </section>
+          </li>
+          <li>
+            Проектування архітектури додатка
+            <ul>
+              <li>Вибір технічного стеку (для кросплатформної підтримки): React Native, Expo Camera API.</li>
+              <li>Розробка прототипів UI/UX (Figma).</li>
+            </ul>
+          </li>
+          <li>
+            Розробка функціоналу
+            <ul>
+              <li>
+                Реалізація базової камери з підтримкою завантажень отриманих
+                фотографій до галереї
+              </li>
+              <li>Реалізація накладання референсних зображень</li>
+              <li>Оптимізація продуктивності камери</li>
+            </ul>
+          </li>
+          <li>
+            Тестування та Оптимізація
+            <ul>
+              <li>Перевірка коректної роботи з різними пристроями (Android, iOS).</li>
+              <li>Впровадження покращень для підвищення продуктивності</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
 
-        <section aria-labelledby="contact">
-            <h2 id="contact">Контактна інформація</h2>
-            <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
-        </section>
+      <section aria-labelledby="results">
+        <h2 id="results">Очікувані результати</h2>
+        <ul>
+          <li>Створення зручного та функціонального мобільного застосунку</li>
+          <li>
+            Оптимізований алгоритм накладання зображень у режимі реального часу.
+          </li>
+          <li>Адаптивний дизайн для різних типів пристроїв.</li>
+          <li>Підтримка експорту та збереження отриманих фото.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="contact">
+        <h2 id="contact">Контактна інформація</h2>
+        <p>Автор: Захарченко Д.С.</p>
+        <p>
+          GitHub repo:
+          <a href="https://github.com/dainntyy/bachelor-landing"
+            >@landing_page</a
+          >
+        </p>
+        <p>
+          Email: <a href="mailto:z2507dasha@email.com">z2507dasha@email.com</a>
+        </p>
+        <p>Повний текст: <a href="#">текст</a></p>
+      </section>
     </main>
 
     <footer role="contentinfo">
-        <p>© 2025 Ваша назва. Усі права захищені.</p>
+      <p>© 2025 Дар'я Захарченко. Усі права захищені.</p>
     </footer>
-</body>
+  </body>
 </html>
